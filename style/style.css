@@ -1,0 +1,488 @@
+.main_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-position: center;
+  background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0b1d26 108.93%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#0b1d26)), url("../img/mountains.jpg");
+  background-image: linear-gradient(to bottom, transparent, #0b1d26), url("../img/mountains.jpg");
+}
+
+.main_wrapper .first {
+  height: 62.5vw;
+}
+
+.main_wrapper .first .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main_wrapper .first .mntn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 91.66667vw;
+  padding-top: 4.16667vw;
+  font-family: Chronicle;
+  font-size: 1.66667vw;
+  line-height: 1.97917vw;
+  letter-spacing: 0.05208vw;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.main_wrapper .first .mntn .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.36458vw;
+}
+
+.main_wrapper .first .mntn .menu a {
+  margin-right: 0.78125vw;
+  font-family: GarBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main_wrapper .first .mntn .account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.20833vw;
+}
+
+.main_wrapper .first .mntn .account .acc {
+  height: 1.25vw;
+  width: 1.25vw;
+}
+
+.main_wrapper .first .mntn .account a {
+  text-decoration: none;
+  font-family: GarBold;
+  font-size: 0.88542vw;
+  line-height: 1.09375vw;
+  color: #ffffff;
+}
+
+.main_wrapper .first .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 14.94792vw;
+}
+
+.main_wrapper .first .middle .hiking h2 {
+  font-family: GarBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  letter-spacing: 0.3125vw;
+  text-transform: uppercase;
+  color: #fbd784;
+  position: relative;
+  margin-left: 5.20833vw;
+  margin-bottom: 1.66667vw;
+  text-indent: 1.66667vw;
+}
+
+.main_wrapper .first .middle .hiking h2::before {
+  content: "";
+  height: 0.10417vw;
+  width: 3.75vw;
+  background-color: #fbd784;
+  position: absolute;
+  left: -4.94792vw;
+  top: 0.52083vw;
+}
+
+.main_wrapper .first .middle .hiking p {
+  font-family: Chronicle;
+  font-style: normal;
+  font-size: 2.76042vw;
+  line-height: 2.76042vw;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 1.66667vw;
+}
+
+.main_wrapper .first .middle .hiking .button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: GarBold;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  width: 6.61458vw;
+  height: 1.14583vw;
+  background-image: url(../img/arrow_forward_24px.png);
+  background-repeat: no-repeat;
+  background-size: 0.83333vw 1.25vw;
+  background-position: 100% center;
+}
+
+.main_wrapper .first .middle .start {
+  -webkit-filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.2));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2.08333vw;
+  height: 12.5vw;
+  width: 4.01042vw;
+  margin-right: 0.26042vw;
+}
+
+.main_wrapper .first .middle .start img {
+  height: 12.5vw;
+}
+
+.main_wrapper .first .middle .start h3 {
+  font-family: GarBold;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  text-align: left;
+  color: #ffffff;
+}
+
+.main_wrapper .first .middle .start p {
+  font-family: GarBold;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  text-align: right;
+  color: #ffffff;
+}
+
+.main_wrapper .first .middle .follow_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.04167vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main_wrapper .first .middle .follow_us .insta {
+  height: 1.04167vw;
+  width: 1.04167vw;
+}
+
+.main_wrapper .first .middle .follow_us .twitter {
+  height: 0.88542vw;
+  width: 1.14583vw;
+}
+
+.main_wrapper .first .middle .follow_us img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 1.30208vw;
+}
+
+.main_wrapper .first .middle .follow_us p {
+  margin-top: 1.5625vw;
+  margin-left: -1.30208vw;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-family: GarBold;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  color: #ffffff;
+  margin-bottom: 1.30208vw;
+}
+
+.second {
+  background: #0b1d26;
+  padding: 0 11.92708vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second img {
+  margin-bottom: 10.41667vw;
+  width: 22.39583vw;
+  height: 31.25vw;
+}
+
+.second .content {
+  width: 76.14583vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second .content .article {
+  padding: 7.34375vw 0vw 7.29167vw 7.8125vw;
+  position: relative;
+  z-index: 3;
+}
+
+.second .content .number1 {
+  background-image: url(../img/01bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 12.5vw;
+  height: 12.5vw;
+  position: absolute;
+  left: -0.78125vw;
+  top: 2.1875vw;
+  z-index: 1;
+}
+
+.second .content .number2 {
+  background-image: url(../img/02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 12.5vw;
+  height: 12.5vw;
+  position: absolute;
+  left: -0.78125vw;
+  top: 3.125vw;
+  z-index: 1;
+}
+
+.second .content .number3 {
+  background-image: url(../img/03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 12.5vw;
+  height: 12.5vw;
+  position: absolute;
+  left: -0.78125vw;
+  top: 3.64583vw;
+  z-index: 1;
+}
+
+.second .content h4 {
+  font-family: GarExtrabold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  letter-spacing: 0.3125vw;
+  text-transform: uppercase;
+  color: #fbd784;
+  position: relative;
+  margin-bottom: 1.40625vw;
+  left: -5.3125vw;
+}
+
+.second .content h4::before {
+  content: "";
+  height: 0.10417vw;
+  width: 3.75vw;
+  background-color: #fbd784;
+  position: absolute;
+  left: -6.04167vw;
+  top: 0.52083vw;
+}
+
+.second .content h2 {
+  font-family: Chronicle;
+  font-size: 2.70833vw;
+  line-height: 4.01042vw;
+  color: #ffffff;
+  margin-bottom: 1.40625vw;
+}
+
+.second .content p {
+  font-family: GarBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9375vw;
+  line-height: 1.66667vw;
+  color: #ffffff;
+  margin-bottom: 1.40625vw;
+}
+
+.second .content button {
+  background-color: transparent;
+  border: none;
+  color: #fbd784;
+  font-family: GarBold;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  width: 6.61458vw;
+  height: 1.14583vw;
+  background-image: url(../img/arrow_downward_24px.png);
+  background-repeat: no-repeat;
+  background-size: 1.25vw 0.83333vw;
+  background-position: 100% center;
+}
+
+footer {
+  background: #0b1d26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 11.92708vw 6.25vw;
+}
+
+footer .lefted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.83333vw;
+  margin-left: 9.0625vw;
+}
+
+footer .centered p {
+  margin-bottom: 8;
+  font-family: GarBold;
+  font-size: 1.25vw;
+  line-height: 1.66667vw;
+  color: #fbd784;
+}
+
+footer .centered a {
+  font-family: GarBold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9375vw;
+  line-height: 1.66667vw;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .righted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.83333vw;
+}
+
+footer .righted p {
+  margin-bottom: 8;
+  font-family: GarBold;
+  font-size: 1.25vw;
+  line-height: 1.66667vw;
+  color: #fbd784;
+}
+
+footer .righted a {
+  font-family: GarBold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9375vw;
+  line-height: 1.66667vw;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.second div :nth-child(2) {
+  margin-left: 11.45833vw;
+}
+
+.lefted :first-child {
+  font-family: Chronicle Display;
+  font-size: 1.66667vw;
+  line-height: 1.97917vw;
+  letter-spacing: 0.05208vw;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.lefted :nth-child(2) {
+  font-family: GarBold;
+  font-size: 0.9375vw;
+  line-height: 1.66667vw;
+  color: #ffffff;
+  margin-bottom: 1.19792vw;
+}
+
+.lefted :nth-child(3) {
+  font-family: GarBold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9375vw;
+  line-height: 1.66667vw;
+  color: #797979;
+}
+/*# sourceMappingURL=style.css.map */

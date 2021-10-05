@@ -1,0 +1,35 @@
+@mixin number1 {
+  background-image: url(../img/01bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calculate(240);
+  height: calculate(240);
+  position: absolute;
+  left: calculate(-15);
+  top: calculate(42);
+  z-index: 1;
+}
+
+@mixin number2 {
+  background-image: url(../img/02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calculate(240);
+  height: calculate(240);
+  position: absolute;
+  left: calculate(-15);
+  top: calculate(60);
+  z-index: 1;
+}
+
+@mixin number3 {
+  background-image: url(../img/03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calculate(240);
+  height: calculate(240);
+  position: absolute;
+  left: calculate(-15);
+  top: calculate(70);
+  z-index: 1;
+}
