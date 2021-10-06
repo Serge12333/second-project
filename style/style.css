@@ -28,7 +28,7 @@
           justify-content: space-between;
   margin: 0vw 4.16667vw;
   padding-top: 4.16667vw;
-  font-family: Chronicle sans-serif;
+  font-family: Chronicle;
   font-size: 1.66667vw;
   line-height: 1.97917vw;
   letter-spacing: 0.05208vw;
@@ -52,7 +52,7 @@
 
 .main_wrapper .first .mntn .menu a {
   margin-right: 0.78125vw;
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-style: normal;
   font-weight: bold;
   font-size: 0.9375vw;
@@ -81,7 +81,7 @@
 
 .main_wrapper .first .mntn .account a {
   text-decoration: none;
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-size: 0.88542vw;
   line-height: 1.09375vw;
   color: #ffffff;
@@ -99,7 +99,7 @@
 }
 
 .main_wrapper .first .middle .hiking h2 {
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-style: normal;
   font-weight: 800;
   font-size: 0.9375vw;
@@ -124,7 +124,7 @@
 }
 
 .main_wrapper .first .middle .hiking p {
-  font-family: Chronicle sans-serif;
+  font-family: Chronicle;
   font-style: normal;
   font-size: 2.76042vw;
   line-height: 2.76042vw;
@@ -137,7 +137,7 @@
   background-color: transparent;
   border: none;
   color: white;
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-size: 0.9375vw;
   line-height: 1.14583vw;
   padding: 0;
@@ -173,7 +173,7 @@
 }
 
 .main_wrapper .first .middle .start h3 {
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-size: 0.9375vw;
   line-height: 1.14583vw;
   text-align: left;
@@ -181,7 +181,7 @@
 }
 
 .main_wrapper .first .middle .start p {
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-size: 0.9375vw;
   line-height: 1.14583vw;
   text-align: right;
@@ -303,7 +303,7 @@
 }
 
 .main_wrapper .second .content h4 {
-  font-family: GarExtrabold sans-serif;
+  font-family: GarExtrabold;
   font-style: normal;
   font-weight: 800;
   font-size: 0.9375vw;
@@ -327,7 +327,7 @@
 }
 
 .main_wrapper .second .content h2 {
-  font-family: Chronicle sans-serif;
+  font-family: Chronicle;
   font-size: 2.70833vw;
   line-height: 4.01042vw;
   color: #ffffff;
@@ -335,7 +335,7 @@
 }
 
 .main_wrapper .second .content p {
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-style: normal;
   font-weight: bold;
   font-size: 0.9375vw;
@@ -348,7 +348,7 @@
   background-color: transparent;
   border: none;
   color: #fbd784;
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-size: 0.9375vw;
   line-height: 1.14583vw;
   padding: 0;
@@ -400,14 +400,14 @@
 
 .main_wrapper footer .centered p {
   margin-bottom: 8;
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-size: 1.25vw;
   line-height: 1.66667vw;
   color: #fbd784;
 }
 
 .main_wrapper footer .centered a {
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-style: normal;
   font-weight: 500;
   font-size: 0.9375vw;
@@ -429,14 +429,14 @@
 
 .main_wrapper footer .righted p {
   margin-bottom: 8;
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-size: 1.25vw;
   line-height: 1.66667vw;
   color: #fbd784;
 }
 
 .main_wrapper footer .righted a {
-  font-family: GarBold sans-serif;
+  font-family: GarBold;
   font-style: normal;
   font-weight: 500;
   font-size: 0.9375vw;
