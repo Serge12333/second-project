@@ -1,0 +1,73 @@
+@mixin number1 {
+  background-image: url(../img/01bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calculate(240);
+  height: calculate(240);
+  position: absolute;
+  left: calculate(-15);
+  top: calculate(42);
+  z-index: 1;
+}
+
+@mixin number2 {
+  background-image: url(../img/02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calculate(240);
+  height: calculate(240);
+  position: absolute;
+  left: calculate(-15);
+  top: calculate(60);
+  z-index: 1;
+}
+
+@mixin number3 {
+  background-image: url(../img/03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calculate(240);
+  height: calculate(240);
+  position: absolute;
+  left: calculate(-15);
+  top: calculate(70);
+  z-index: 1;
+}
+
+@mixin second_nth {
+  .second div :nth-child(2) {
+    margin-left: calculate(220);
+  }
+}
+
+@mixin lefted_first_child {
+  .lefted :first-child {
+    font-family: Chronicle Display;
+    font-size: calculate(32);
+    line-height: calculate(38);
+    letter-spacing: calculate(1);
+    text-transform: capitalize;
+    color: $colorWhite;
+  }
+}
+
+@mixin lefted_nth-child_second {
+  .lefted :nth-child(2) {
+    font-family: GarBold;
+    font-size: calculate(18);
+    line-height: calculate(32);
+    color: $colorWhite;
+    margin-bottom: calculate(23);
+  }
+}
+
+@mixin lefted_nth-child_third {
+  .lefted :nth-child(3) {
+    font-family: GarBold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calculate(18);
+    line-height: calculate(32);
+    color: #797979;
+  }
+}

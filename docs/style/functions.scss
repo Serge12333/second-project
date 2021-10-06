@@ -1,4 +1,0 @@
-@function calculate($result) {
-    $size: $result * 100 * 1vw/1920;
-    @return $size;
-  }
